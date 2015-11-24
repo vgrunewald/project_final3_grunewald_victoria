@@ -166,12 +166,13 @@ aside {
 @media all and (min-width: 750px) {
     aside {
         float: right;
-        width: 40%;
+        width: 30%;
     }
     section {
-        width: 60%;
+        width: 70%;
         float: left;
         padding-right: 10px;
+        margin-bottom: 2em;
     }
     .content-wrapper::after {
         content: "";
