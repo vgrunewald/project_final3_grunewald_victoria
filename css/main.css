@@ -225,6 +225,9 @@ button:focus {
 }
 
 @media all and (min-width: 750px) {
+    .multi-buttons {
+        text-align: left;
+    }
     .multi-buttons button {
         width: 40%;
         display: inline;
@@ -264,7 +267,6 @@ i {
     footer {
         text-align: left;
         padding: 10px;
-        font-size: 0.8em;
     }
     footer::after {
         display: block;
