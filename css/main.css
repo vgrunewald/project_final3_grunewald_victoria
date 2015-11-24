@@ -52,6 +52,13 @@ h2 {
     padding-bottom: 0.6em;
 }
 
+h3 {
+    font-family: 'Source Code Pro', sans-serif;
+    font-size: 1.2em;
+    color: #fff;
+    padding-bottom: 0.6em;
+}
+
 p {
     font-family: 'Droid Sans', sans-serif;
     color: #fff;
@@ -127,4 +134,12 @@ button:active {
 
 button:focus {
     outline: none;
+}
+
+aside {
+    text-align: center;
+}
+
+aside p span {
+    font-size: 2em;
 }
