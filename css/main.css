@@ -112,16 +112,13 @@ nav ul li:hover {
 }
 
 @media all and (min-width: 750px) {
-    nav ul {
-        padding: 1em 0;
-    }
     nav ul li {
         display: inline;
         padding: 0 1.5em;
     }
 }
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 1000px) {
     header {
         text-align: left;
     }
@@ -142,7 +139,8 @@ nav ul li:hover {
         text-align: right;
     }
     nav ul li {
-        padding: 0 1em;
+        font-size: 1.2em;
+        width: 25%;
     }
     header::after {
         clear: both;
