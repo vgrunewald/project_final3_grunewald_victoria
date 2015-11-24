@@ -98,3 +98,36 @@ nav ul li {
 article {
     padding-bottom: 1em;
 }
+
+button, button:visited {
+    font-family: 'Source Code Pro', sans-serif;
+    color: #713de5;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #b8d844;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 10px #95a534;
+    width: 100%;
+    max-width: 450px;
+    padding: 0.5rem 0;
+    height: auto;
+}
+
+button:hover {
+    background-color: #aac73f;
+}
+
+button:active {
+    background-color: #aac73f;
+    box-shadow: 0 5px #95a534;
+    transform: translateY(5px);
+}
+
+button:focus {
+    outline: none;
+}
+
+button + button {
+    margin-top: 1em;
+}
