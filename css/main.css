@@ -141,6 +141,17 @@ aside {
     padding: 0 0.5em;
 }
 
+@media all and (min-width: 750px) {
+    aside {
+        float: right;
+        width: 40%;
+    }
+    section {
+        width: 60%;
+        float: left;
+    }
+}
+
 article {
     padding-bottom: 1em;
 }
