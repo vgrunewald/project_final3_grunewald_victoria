@@ -67,13 +67,17 @@ p, h4 {
     padding-bottom: 0.6em;
 }
 
-main,
-footer {
-    padding: 0.5em;
+a, a:visited {
+    color: #b8d844;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
 }
 
 header {
-    background: url("../img/stars.png") repeat-x;
+    background: url("../img/stars.png") repeat;
 }
 
 #logo {
@@ -81,20 +85,28 @@ header {
     width: 100%;
     height: auto;
     max-width: 606px;
+    margin: auto;
 }
 
 p#tagline {
     font-family: 'Audiowide', cursive;
     color: #fff;
+    text-align: center;
 }
 
 nav ul {
     list-style-type: none;
+    text-align: center;
 }
 
 nav ul li {
     font-family: 'Audiowide', cursive;
     color: #b8d844;
+    font-size: 1.4em;
+}
+
+nav ul li:hover {
+    background-color: #5b3f7c;
 }
 
 #banner {
@@ -151,4 +163,6 @@ aside p span {
 
 footer {
     background-color: #5b3f7c;
+    border-top: 2px solid #b8d844;
+    text-align: center;
 }
