@@ -119,6 +119,11 @@ nav ul li:hover {
     height: auto;
 }
 
+main,
+aside {
+    padding: 0 0.5em;
+}
+
 article {
     padding-bottom: 1em;
 }
