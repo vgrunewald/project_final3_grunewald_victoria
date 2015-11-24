@@ -54,7 +54,7 @@ h2 {
 
 h3 {
     font-family: 'Source Code Pro', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: #fff;
     padding-bottom: 0.6em;
 }
@@ -62,7 +62,7 @@ h3 {
 p, h4 {
     font-family: 'Droid Sans', sans-serif;
     color: #fff;
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 1.4em;
     padding-bottom: 0.6em;
 }
@@ -162,6 +162,10 @@ aside {
     text-align: center;
 }
 
+aside article {
+    text-align: left;
+}
+
 aside p span {
     font-size: 2em;
 }
@@ -171,3 +175,4 @@ footer {
     border-top: 2px solid #b8d844;
     text-align: center;
 }
+
