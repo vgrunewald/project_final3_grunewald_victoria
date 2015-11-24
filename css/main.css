@@ -40,6 +40,20 @@ header {
     max-width: 606px;
 }
 
+p#tagline {
+    font-family: 'Audiowide', cursive;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    font-family: 'Audiowide', cursive;
+    color: #b8d844;
+}
+
 #banner {
     border-top: 7px solid #5b3f7c;
 }
