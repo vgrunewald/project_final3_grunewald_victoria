@@ -117,20 +117,32 @@ nav ul li:hover {
     }
     nav ul li {
         display: inline;
-        padding: 0 2em;
+        padding: 0 1.5em;
     }
 }
 
 @media all and (min-width: 900px) {
+    header {
+        text-align: left;
+    }
+    #logo {
+        margin-top: 20px;
+        padding-left: 0.6em;
+    }
     #header-content {
         float: right;
-        width: 50%;
+        width: 55%;
+        margin-top: 10px;
     }
     p#tagline {
         text-align: right;
+        padding-right: 0.6em;
     }
     nav ul {
         text-align: right;
+    }
+    nav ul li {
+        padding: 0 1em;
     }
     header::after {
         clear: both;
