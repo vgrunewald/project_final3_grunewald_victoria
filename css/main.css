@@ -167,11 +167,11 @@ footer {
 }
 
 @media all and (min-width: 750px) {
-    aside {
+    #home-aside {
         float: right;
         width: 30%;
     }
-    section {
+    #home-main section {
         width: 70%;
         float: left;
         padding-right: 10px;
