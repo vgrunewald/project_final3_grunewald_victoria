@@ -35,6 +35,31 @@ body {
     margin: auto;
 }
 
+h1 {
+    font-family: 'Audiowide', cursive;
+    color: #b8d844;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 0.6em;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: 'Source Code Pro', sans-serif;
+    color: #b8d844;
+    font-weight: 500;
+    font-size: 1.4em;
+    padding-bottom: 0.6em;
+}
+
+p {
+    font-family: 'Droid Sans', sans-serif;
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.4em;
+    padding-bottom: 0.6em;
+}
+
 header {
     background: url("../img/stars.png") repeat-x;
 }
