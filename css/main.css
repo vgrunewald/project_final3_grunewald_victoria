@@ -78,14 +78,15 @@ a:hover {
 
 header {
     background: url("../img/stars.png") repeat;
+    padding-top: 10px;
 }
 
 #logo {
-    padding: 20px;
     width: 100%;
     height: auto;
-    max-width: 606px;
+    /*max-width: 606px;*/
     margin: auto;
+    max-width: 500px;
 }
 
 p#tagline {
@@ -107,6 +108,22 @@ nav ul li {
 
 nav ul li:hover {
     background-color: #5b3f7c;
+}
+
+@media all and (min-width: 900px) {
+    #header-content {
+        float: right;
+        width: 50%;
+    }
+    p#tagline {
+        text-align: right;
+    }
+    nav ul {
+        text-align: right;
+    }
+    nav ul li {
+        display: inline;
+    }
 }
 
 #banner {
