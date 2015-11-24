@@ -111,10 +111,6 @@ nav ul li {
     font-size: 1.4em;
 }
 
-nav ul li:hover {
-    background-color: #5b3f7c;
-}
-
 @media all and (min-width: 750px) {
     #tagline {
         padding: 1em 0;
