@@ -112,6 +112,7 @@ button, button:visited {
     max-width: 450px;
     padding: 0.5rem 0;
     height: auto;
+    margin-bottom: 1em;
 }
 
 button:hover {
@@ -126,8 +127,4 @@ button:active {
 
 button:focus {
     outline: none;
-}
-
-button + button {
-    margin-top: 1em;
 }
