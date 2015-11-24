@@ -149,6 +149,15 @@ aside {
     section {
         width: 60%;
         float: left;
+        padding-right: 10px;
+    }
+    .content-wrapper::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .content-wrapper {
+        margin-top: 10px;
     }
 }
 
