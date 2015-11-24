@@ -79,6 +79,7 @@ a:hover {
 header {
     background: url("../img/stars.png") repeat;
     padding-top: 10px;
+    text-align: center;
 }
 
 #logo {
