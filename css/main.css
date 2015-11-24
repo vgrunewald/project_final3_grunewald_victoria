@@ -245,3 +245,32 @@ footer {
     text-align: center;
 }
 
+footer ul li {
+    display: inline;
+}
+
+i {
+    margin-right: 10px;
+}
+
+@media all and (min-width: 750px) {
+    footer {
+        text-align: left;
+        padding: 10px;
+    }
+    footer::after {
+        display: block;
+        content: "";
+        clear:both;
+    }
+    #social-media {
+        float: right;
+        width: 30%;
+        text-align: right;
+    }
+    #contact-info {
+        float: left;
+        width: 70%;
+    }
+}
+
