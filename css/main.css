@@ -94,3 +94,7 @@ nav ul li {
     width: 100%;
     height: auto;
 }
+
+article {
+    padding-bottom: 1em;
+}
