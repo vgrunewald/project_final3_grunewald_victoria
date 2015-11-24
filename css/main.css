@@ -110,6 +110,16 @@ nav ul li:hover {
     background-color: #5b3f7c;
 }
 
+@media all and (min-width: 750px) {
+    nav ul {
+        padding: 1em 0;
+    }
+    nav ul li {
+        display: inline;
+        padding: 0 2em;
+    }
+}
+
 @media all and (min-width: 900px) {
     #header-content {
         float: right;
@@ -121,19 +131,18 @@ nav ul li:hover {
     nav ul {
         text-align: right;
     }
-    nav ul li {
-        display: inline;
+    header::after {
+        clear: both;
+        content: "";
+        display: block;
     }
-}
-
-#banner {
-    border-top: 7px solid #5b3f7c;
 }
 
 #banner img {
     max-width: 1200px;
     width: 100%;
     height: auto;
+    border-top: 7px solid #5b3f7c;
 }
 
 main,
