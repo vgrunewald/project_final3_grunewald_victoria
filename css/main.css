@@ -14,3 +14,38 @@ body{
     padding: 0;
     overflow-x: hidden;
 }
+
+body {
+    background: url("../img/metal_texture.jpg") repeat;
+}
+
+#container {
+    background-color: #0e0f55;
+    background: linear-gradient(#0e0f55, #000955, #0243a9);
+    background: -webkit-linear-gradient(#0e0f55, #000955, #0243a9);
+    background: -moz-linear-gradient(#0e0f55, #000955, #0243a9);
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background: url("../img/stars.png") repeat-x;
+}
+
+#logo {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 606px;
+}
+
+#banner {
+    border-top: 7px solid #5b3f7c;
+}
+
+#banner img {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+}
