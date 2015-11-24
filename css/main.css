@@ -220,6 +220,10 @@ button:focus {
     outline: none;
 }
 
+.multi-buttons {
+    text-align: center;
+}
+
 @media all and (min-width: 750px) {
     .multi-buttons button {
         width: 40%;
