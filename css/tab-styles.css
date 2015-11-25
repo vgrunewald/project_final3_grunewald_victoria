@@ -8,6 +8,8 @@
 .r-tabs .r-tabs-nav .r-tabs-tab {
 	position: relative;
 	background-color: #b8d844;
+    font-size: 1.2em;
+    font-family: 'Source Code Pro', sans-serif;
 }
 
 /* Tab anchor */
