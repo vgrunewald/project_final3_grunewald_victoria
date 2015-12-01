@@ -232,9 +232,7 @@ button:focus {
     .multi-buttons button {
         width: 40%;
         display: inline;
-    }
-    button + button {
-        margin-left: 1.5em;
+        margin-left: 2em;
     }
 }
 
