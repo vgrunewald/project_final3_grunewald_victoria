@@ -287,8 +287,14 @@ i {
 #gmap {
     width: 100%;
     max-width: 600px;
-    height: 400px;
+    height: 300px;
+    margin: auto;
 }
 #gmap p {
     color: black;
+}
+@media all and (min-width: 750px) {
+    #gmap {
+        height: 400px;
+    }
 }
