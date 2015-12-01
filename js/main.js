@@ -14,4 +14,16 @@ $(document).ready(function(){
             captions: true
         });
     }
+
+   var maplace = new Maplace({
+        locations: [{
+            lat: 47.614679,
+            lon: -122.348280,
+            zoom: 15,
+            title: 'Test',
+            html: '<p>Pizza Planet</p><p>2422 1st Ave.</p><p>Seattle, WA 98121</p>'
+        }]
+   });
+   maplace.Load();
+
 });
