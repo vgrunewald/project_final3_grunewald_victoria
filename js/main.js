@@ -4,7 +4,7 @@ $(document).ready(function(){
     if (quotes.quovolver) {
         $('.quotes').quovolver({
             autoPlay: true,
-            autoPlaySpeed: 6000,
+            autoPlaySpeed: 7000,
             transition: 'fade',
             transitionSpeed: 500,
             pauseOnHover: true,
