@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     var quotes = $('.quotes');
-    if (quotes) {
+    if (quotes.quovolver) {
         $('.quotes').quovolver({
             autoPlay: true,
             autoPlaySpeed: 5500,
