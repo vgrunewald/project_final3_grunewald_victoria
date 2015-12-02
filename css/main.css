@@ -187,6 +187,12 @@ footer {
     }
 }
 
+aside img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
 article {
     padding-bottom: 1em;
 }
