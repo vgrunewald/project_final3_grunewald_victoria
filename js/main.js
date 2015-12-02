@@ -4,10 +4,11 @@ $(document).ready(function(){
     if (quotes) {
         $('.quotes').quovolver({
             autoPlay: true,
-            autoPlaySpeed: 5000,
+            autoPlaySpeed: 5500,
             transition: 'fade',
             transitionSpeed: 500,
-            pauseOnHover: true
+            pauseOnHover: true,
+            equalHeight: true
         });
     }
 

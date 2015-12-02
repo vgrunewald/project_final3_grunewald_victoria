@@ -187,12 +187,6 @@ footer {
     }
 }
 
-aside img {
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-}
-
 article {
     padding-bottom: 1em;
 }
@@ -254,6 +248,12 @@ aside p span {
     font-size: 2em;
 }
 
+aside img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
 footer {
     background-color: #5b3f7c;
     border-top: 2px solid #b8d844;
@@ -288,6 +288,14 @@ i {
         width: 70%;
     }
 }
+/*HOME PAGE STYLES*/
+.quotes_wrapper {
+    border: 5px solid #b8d844;
+    padding: 1em;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+
 /*CONTACT PAGE STYLES*/
 #gmap {
     width: 100%;
