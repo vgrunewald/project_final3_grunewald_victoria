@@ -1,4 +1,16 @@
 $(document).ready(function(){
+
+    var quotes = $('.quotes');
+    if (quotes) {
+        $('.quotes').quovolver({
+            autoPlay: true,
+            autoPlaySpeed: 5000,
+            transition: 'fade',
+            transitionSpeed: 500,
+            pauseOnHover: true
+        });
+    }
+
     var responsiveTabsDemo = $('#responsiveTabsDemo');
     if (responsiveTabsDemo.responsiveTabs) {
         responsiveTabsDemo.responsiveTabs({
