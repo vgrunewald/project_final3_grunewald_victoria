@@ -281,12 +281,12 @@ i {
     }
     #social-media {
         float: right;
-        width: 30%;
+        width: 50%;
         text-align: right;
     }
     #contact-info {
         float: left;
-        width: 70%;
+        width: 50%;
     }
 }
 /*HOME PAGE STYLES*/
