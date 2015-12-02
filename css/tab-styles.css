@@ -43,6 +43,8 @@
 	background-color: #b8d844;
 	color: #5b3f7c;
 	text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Source Code Pro', sans-serif;
 }
 
 /* Active accordion anchor */
@@ -56,34 +58,3 @@
 .r-tabs .r-tabs-accordion-title.r-tabs-state-disabled {
 	opacity: 0.5;
 }
-
-/* Buttons
-button {
-	display:inline-block;
-	margin-top: 10px;
-	margin-right: 10px;
-	padding: 10px 20px;
-	line-height: 100%;
-	color: #fff;
-	font-size: 14px;
-	text-align: center;
-	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	vertical-align: middle;
-	font-weight: bold;
-	cursor: pointer;
-}
-
-Info bar
-.info {
-	display:inline-block;
-	margin-top: 10px;
-	margin-right: 10px;
-	padding: 10px 20px;
-	width: 300px;
-	line-height: 100%;
-	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-	font-size: 14px;
-	color: #00c5ad;
-	border: 2px solid #00ab94;
-	cursor: pointer;
-}*/
