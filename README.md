@@ -10,6 +10,7 @@
 
 # Resources
 * [Issue with Maplace plugin](http://stackoverflow.com/questions/26671542/maplace-js-not-showing-the-google-map)
+* [When To Use the Button Element](https://css-tricks.com/use-button-element/)
 
 # Comments
 * This was definitely a challenging project for me, design-wise. The Pizza Planet aesthetic is much bolder and brighter than I'm used to designing. Challenging, but fun! I think this is the most complete website I've ever built. Thank you for this neat opportunity! 
