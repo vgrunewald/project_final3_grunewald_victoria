@@ -186,13 +186,12 @@ footer {
 @media all and (min-width: 750px) {
     aside {
         float: right;
-        width: 30%;
+        width: 40%;
     }
     section {
-        width: 70%;
+        width: 60%;
         float: left;
-        padding-right: 10px;
-        margin-bottom: 2em;
+        margin-bottom: 1em;
     }
     .content-wrapper::after {
         content: "";
