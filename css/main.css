@@ -12,6 +12,7 @@ html {
     box-sizing: inherit;
 }
 
+/*BASIC STYLES*/
 html,
 body{
     width: 100%;
@@ -77,6 +78,7 @@ a:hover {
     color: #fff;
 }
 
+/*HEADER STYLES*/
 header {
     background: url("../img/stars.png") repeat;
     padding-top: 1em;
@@ -95,7 +97,7 @@ header {
     padding: 0 1em;
 }
 
-p#tagline {
+#tagline {
     font-family: 'Audiowide', cursive;
     color: #fff;
     text-align: center;
@@ -162,6 +164,7 @@ nav ul li {
     border-bottom: 2px solid #5b3f7c;
 }
 
+/*CONTENT STYLES*/
 main,
 aside,
 footer {
@@ -193,6 +196,25 @@ article {
     padding-bottom: 1em;
 }
 
+aside {
+    text-align: center;
+}
+
+aside article {
+    text-align: left;
+}
+
+aside p span {
+    font-size: 2em;
+}
+
+aside img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+/*BUTTON STYLES*/
 button, button:visited {
     font-family: 'Source Code Pro', sans-serif;
     color: #713de5;
@@ -238,24 +260,7 @@ button:focus {
     }
 }
 
-aside {
-    text-align: center;
-}
-
-aside article {
-    text-align: left;
-}
-
-aside p span {
-    font-size: 2em;
-}
-
-aside img {
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-}
-
+/*FOOTER STYLES*/
 footer {
     background-color: #5b3f7c;
     border-top: 2px solid #b8d844;
@@ -302,6 +307,7 @@ footer ul li {
         width: 50%;
     }
 }
+
 /*HOME PAGE STYLES*/
 .quotes_wrapper {
     border: 5px solid #b8d844;
