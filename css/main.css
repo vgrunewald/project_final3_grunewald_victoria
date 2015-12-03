@@ -145,12 +145,12 @@ nav ul li {
         text-align: left;
     }
     #logo {
-        margin: 20px 1em;
+        margin: 2em 0 2em 1em;
     }
     #header-content {
         float: right;
-        width: 45%;
-        margin: 10px 1em;
+        width: 44%;
+        margin: 1em;
     }
     p#tagline {
         text-align: right;
