@@ -41,32 +41,35 @@ h1 {
     color: #b8d844;
     font-size: 2em;
     text-align: center;
-    padding-bottom: 0.6em;
+    padding-bottom: 1em;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
 h2 {
-    font-family: 'Source Code Pro', sans-serif;
     color: #b8d844;
     font-weight: 500;
     font-size: 1.4em;
-    padding-bottom: 0.6em;
 }
 
 h3 {
-    font-family: 'Source Code Pro', sans-serif;
-    font-size: 1.4em;
     color: #fff;
-    padding-bottom: 0.6em;
 }
 
-p, h4 {
+h2,
+h3 {
+    font-family: 'Source Code Pro', sans-serif;
+    font-size: 1.4em;
+    padding-bottom: 1em;
+}
+
+p,
+h4 {
     font-family: 'Droid Sans', sans-serif;
     color: #fff;
     font-size: 1.2em;
     line-height: 1.6em;
-    padding-bottom: 0.6em;
+    padding-bottom: 1em;
 }
 
 a, a:visited {
@@ -81,20 +84,20 @@ a:hover {
 /*HEADER STYLES*/
 header {
     background: url("../img/stars.png") repeat;
-    padding-top: 1em;
+    padding-top: 0.5em;
     text-align: center;
 }
 
 #logo {
     width: 100%;
     height: auto;
-    /*max-width: 606px;*//*Fix logo size*/
     margin: auto;
     max-width: 500px;
+    margin-bottom: 0.5em;
 }
 
 #header-content {
-    padding: 0 1em;
+    margin-bottom: 0.5em;
 }
 
 #tagline {
@@ -115,14 +118,14 @@ nav ul li {
 }
 
 @media all and (min-width: 750px) {
-    #tagline {
-        padding: 1em 0;
-    }
     nav ul li {
         display: inline;
     }
     .menu_item + .menu_item {
         padding-left: 1em;
+    }
+    #tagline {
+        padding: 1em 0;
     }
 }
 
@@ -131,14 +134,12 @@ nav ul li {
         text-align: left;
     }
     #logo {
-        margin: 20px 0;
-        padding-left: 1em;
+        margin: 20px 1em;
     }
     #header-content {
         float: right;
         width: 45%;
-        margin-top: 10px;
-        padding-left: 0;
+        margin: 10px 1em;
     }
     p#tagline {
         text-align: right;
@@ -269,6 +270,11 @@ footer {
 
 footer ul li {
     display: inline;
+}
+
+#contact-info h4,
+#contact-info p {
+    padding-bottom: 0.5em;
 }
 
 .icon + .icon {
