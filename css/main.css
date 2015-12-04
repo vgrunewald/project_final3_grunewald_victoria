@@ -146,6 +146,8 @@ nav ul li {
     }
     #logo {
         margin: 2em 0 2em 1em;
+        float: left;
+        width: 56%;
     }
     #header-content {
         float: right;
