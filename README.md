@@ -1,6 +1,6 @@
-# GitHub link
+# [GitHub Link](https://github.com/vgrunewald/project_final3_grunewald_victoria)
 
-# URL 
+# [Web URL](http://www.vickigrunewald.com/project_final3/)
 
 # Plugins
 * [Quovolver](http://sebnitu.github.io/Quovolver/): This plugin is used to display rovolving quotes or testimonials (as opposed to just short spans of text, like a similar plugin did in my resume project). You can find this plugin in action on my Home page. I use it to rotate through various awards and accolades Pizza Planet has received. 
@@ -14,4 +14,4 @@
 
 # Comments
 * This was definitely a challenging project for me, design-wise. The Pizza Planet aesthetic is much bolder and brighter than I'm used to designing. Challenging, but fun! I think this is the most complete website I've ever built. Thank you for this neat opportunity! 
-* Based on the email response I got from you, I did not design the actual order form for my "Order Online" button. I also did not design a page for my "Giftcards" link in the footer. All other buttons and links function accordingly.  
+* FYI, I did not design the actual order form for my "Order Online" button. I also did not design a page for my "Giftcards" link in the footer. All other buttons and links function accordingly.  
