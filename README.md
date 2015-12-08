@@ -14,4 +14,4 @@
 
 # Comments
 * This was definitely a challenging project for me, design-wise. The Pizza Planet aesthetic is much bolder and brighter than I'm used to designing. Challenging, but fun! I think this is the most complete website I've ever built. Thank you for this neat opportunity! 
-* FYI, I did not design the actual order form for my "Order Online" button. I also did not design a page for my "Giftcards" link in the footer. All other buttons and links function accordingly.  
+* FYI, I did not design the actual order form for my "Order Online" button. I also did not design a page for my "Giftcards" link in the footer. All other buttons and links function accordingly.
