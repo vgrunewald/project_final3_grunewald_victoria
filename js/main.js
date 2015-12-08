@@ -34,7 +34,7 @@ $(document).ready(function(){
             lat: 47.614679,
             lon: -122.348280,
             zoom: 15,
-            title: 'Test',
+            title: 'Pizza Planet',
             html: '<p>Pizza Planet</p><p>2422 1st Ave.</p><p>Seattle, WA 98121</p>'
         }]
     });
